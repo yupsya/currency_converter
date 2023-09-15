@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "currency-conv"
+version = "0.1.0"
+description = ""
+authors = ["yupsya <kraken_please@mail.ru>"]
+readme = "README.md"
+packages = [{include = "currency_conv"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.103.1"}
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
